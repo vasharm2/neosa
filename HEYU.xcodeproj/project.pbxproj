@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65EC3D21BC066B10026CE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EC3D11BC066B10026CE58 /* AppDelegate.swift */; };
+		A65EC3D41BC066B10026CE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EC3D31BC066B10026CE58 /* ViewController.swift */; };
+		A65EC3D71BC066B10026CE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65EC3D51BC066B10026CE58 /* Main.storyboard */; };
+		A65EC3D91BC066B10026CE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65EC3D81BC066B10026CE58 /* Assets.xcassets */; };
+		A65EC3DC1BC066B10026CE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65EC3DA1BC066B10026CE58 /* LaunchScreen.storyboard */; };
+		A65EC3E71BC066B10026CE58 /* HEYUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EC3E61BC066B10026CE58 /* HEYUTests.swift */; };
+		A65EC3F21BC066B10026CE58 /* HEYUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EC3F11BC066B10026CE58 /* HEYUUITests.swift */; };
+		A65EC4011BC088A60026CE58 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC3FF1BC088A60026CE58 /* AddressBook.framework */; };
+		A65EC4021BC088A60026CE58 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC4001BC088A60026CE58 /* AddressBookUI.framework */; };
+		A65EC4041BC32CCD0026CE58 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC4031BC32CCD0026CE58 /* Accounts.framework */; };
+		A65EC4071BC32CE40026CE58 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC4051BC32CE40026CE58 /* Contacts.framework */; };
+		A65EC4081BC32CE40026CE58 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC4061BC32CE40026CE58 /* ContactsUI.framework */; };
+		A65EC40B1BC32D130026CE58 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC4091BC32D130026CE58 /* Photos.framework */; };
+		A65EC40C1BC32D130026CE58 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65EC40A1BC32D130026CE58 /* PhotosUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65EC3E31BC066B10026CE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65EC3C61BC066B10026CE58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65EC3CD1BC066B10026CE58;
+			remoteInfo = HEYU;
+		};
+		A65EC3EE1BC066B10026CE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65EC3C61BC066B10026CE58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65EC3CD1BC066B10026CE58;
+			remoteInfo = HEYU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A65EC3CE1BC066B10026CE58 /* HEYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EC3D11BC066B10026CE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65EC3D31BC066B10026CE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65EC3D61BC066B10026CE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65EC3D81BC066B10026CE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65EC3DB1BC066B10026CE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65EC3DD1BC066B10026CE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EC3E21BC066B10026CE58 /* HEYUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEYUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EC3E61BC066B10026CE58 /* HEYUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEYUTests.swift; sourceTree = "<group>"; };
+		A65EC3E81BC066B10026CE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EC3ED1BC066B10026CE58 /* HEYUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEYUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EC3F11BC066B10026CE58 /* HEYUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEYUUITests.swift; sourceTree = "<group>"; };
+		A65EC3F31BC066B10026CE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EC3FF1BC088A60026CE58 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A65EC4001BC088A60026CE58 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A65EC4031BC32CCD0026CE58 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A65EC4051BC32CE40026CE58 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A65EC4061BC32CE40026CE58 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		A65EC4091BC32D130026CE58 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		A65EC40A1BC32D130026CE58 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65EC3CB1BC066B10026CE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EC40B1BC32D130026CE58 /* Photos.framework in Frameworks */,
+				A65EC40C1BC32D130026CE58 /* PhotosUI.framework in Frameworks */,
+				A65EC4071BC32CE40026CE58 /* Contacts.framework in Frameworks */,
+				A65EC4081BC32CE40026CE58 /* ContactsUI.framework in Frameworks */,
+				A65EC4041BC32CCD0026CE58 /* Accounts.framework in Frameworks */,
+				A65EC4011BC088A60026CE58 /* AddressBook.framework in Frameworks */,
+				A65EC4021BC088A60026CE58 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3DF1BC066B10026CE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3EA1BC066B10026CE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65EC3C51BC066B10026CE58 = {
+			isa = PBXGroup;
+			children = (
+				A65EC4091BC32D130026CE58 /* Photos.framework */,
+				A65EC40A1BC32D130026CE58 /* PhotosUI.framework */,
+				A65EC4051BC32CE40026CE58 /* Contacts.framework */,
+				A65EC4061BC32CE40026CE58 /* ContactsUI.framework */,
+				A65EC4031BC32CCD0026CE58 /* Accounts.framework */,
+				A65EC3FF1BC088A60026CE58 /* AddressBook.framework */,
+				A65EC4001BC088A60026CE58 /* AddressBookUI.framework */,
+				A65EC3D01BC066B10026CE58 /* HEYU */,
+				A65EC3E51BC066B10026CE58 /* HEYUTests */,
+				A65EC3F01BC066B10026CE58 /* HEYUUITests */,
+				A65EC3CF1BC066B10026CE58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65EC3CF1BC066B10026CE58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65EC3CE1BC066B10026CE58 /* HEYU.app */,
+				A65EC3E21BC066B10026CE58 /* HEYUTests.xctest */,
+				A65EC3ED1BC066B10026CE58 /* HEYUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65EC3D01BC066B10026CE58 /* HEYU */ = {
+			isa = PBXGroup;
+			children = (
+				A65EC3D11BC066B10026CE58 /* AppDelegate.swift */,
+				A65EC3D31BC066B10026CE58 /* ViewController.swift */,
+				A65EC3D51BC066B10026CE58 /* Main.storyboard */,
+				A65EC3D81BC066B10026CE58 /* Assets.xcassets */,
+				A65EC3DA1BC066B10026CE58 /* LaunchScreen.storyboard */,
+				A65EC3DD1BC066B10026CE58 /* Info.plist */,
+			);
+			path = HEYU;
+			sourceTree = "<group>";
+		};
+		A65EC3E51BC066B10026CE58 /* HEYUTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65EC3E61BC066B10026CE58 /* HEYUTests.swift */,
+				A65EC3E81BC066B10026CE58 /* Info.plist */,
+			);
+			path = HEYUTests;
+			sourceTree = "<group>";
+		};
+		A65EC3F01BC066B10026CE58 /* HEYUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65EC3F11BC066B10026CE58 /* HEYUUITests.swift */,
+				A65EC3F31BC066B10026CE58 /* Info.plist */,
+			);
+			path = HEYUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65EC3CD1BC066B10026CE58 /* HEYU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EC3F61BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYU" */;
+			buildPhases = (
+				A65EC3CA1BC066B10026CE58 /* Sources */,
+				A65EC3CB1BC066B10026CE58 /* Frameworks */,
+				A65EC3CC1BC066B10026CE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEYU;
+			productName = HEYU;
+			productReference = A65EC3CE1BC066B10026CE58 /* HEYU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65EC3E11BC066B10026CE58 /* HEYUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EC3F91BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYUTests" */;
+			buildPhases = (
+				A65EC3DE1BC066B10026CE58 /* Sources */,
+				A65EC3DF1BC066B10026CE58 /* Frameworks */,
+				A65EC3E01BC066B10026CE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65EC3E41BC066B10026CE58 /* PBXTargetDependency */,
+			);
+			name = HEYUTests;
+			productName = HEYUTests;
+			productReference = A65EC3E21BC066B10026CE58 /* HEYUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A65EC3EC1BC066B10026CE58 /* HEYUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EC3FC1BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYUUITests" */;
+			buildPhases = (
+				A65EC3E91BC066B10026CE58 /* Sources */,
+				A65EC3EA1BC066B10026CE58 /* Frameworks */,
+				A65EC3EB1BC066B10026CE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65EC3EF1BC066B10026CE58 /* PBXTargetDependency */,
+			);
+			name = HEYUUITests;
+			productName = HEYUUITests;
+			productReference = A65EC3ED1BC066B10026CE58 /* HEYUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65EC3C61BC066B10026CE58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jewel Ifeguni";
+				TargetAttributes = {
+					A65EC3CD1BC066B10026CE58 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A65EC3E11BC066B10026CE58 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A65EC3CD1BC066B10026CE58;
+					};
+					A65EC3EC1BC066B10026CE58 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A65EC3CD1BC066B10026CE58;
+					};
+				};
+			};
+			buildConfigurationList = A65EC3C91BC066B10026CE58 /* Build configuration list for PBXProject "HEYU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65EC3C51BC066B10026CE58;
+			productRefGroup = A65EC3CF1BC066B10026CE58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65EC3CD1BC066B10026CE58 /* HEYU */,
+				A65EC3E11BC066B10026CE58 /* HEYUTests */,
+				A65EC3EC1BC066B10026CE58 /* HEYUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65EC3CC1BC066B10026CE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EC3DC1BC066B10026CE58 /* LaunchScreen.storyboard in Resources */,
+				A65EC3D91BC066B10026CE58 /* Assets.xcassets in Resources */,
+				A65EC3D71BC066B10026CE58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3E01BC066B10026CE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3EB1BC066B10026CE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65EC3CA1BC066B10026CE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EC3D41BC066B10026CE58 /* ViewController.swift in Sources */,
+				A65EC3D21BC066B10026CE58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3DE1BC066B10026CE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EC3E71BC066B10026CE58 /* HEYUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EC3E91BC066B10026CE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EC3F21BC066B10026CE58 /* HEYUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65EC3E41BC066B10026CE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65EC3CD1BC066B10026CE58 /* HEYU */;
+			targetProxy = A65EC3E31BC066B10026CE58 /* PBXContainerItemProxy */;
+		};
+		A65EC3EF1BC066B10026CE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65EC3CD1BC066B10026CE58 /* HEYU */;
+			targetProxy = A65EC3EE1BC066B10026CE58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65EC3D51BC066B10026CE58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EC3D61BC066B10026CE58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65EC3DA1BC066B10026CE58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EC3DB1BC066B10026CE58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65EC3F41BC066B10026CE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A65EC3F51BC066B10026CE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65EC3F71BC066B10026CE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HEYU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A65EC3F81BC066B10026CE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HEYU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A65EC3FA1BC066B10026CE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HEYUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEYU.app/HEYU";
+			};
+			name = Debug;
+		};
+		A65EC3FB1BC066B10026CE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HEYUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEYU.app/HEYU";
+			};
+			name = Release;
+		};
+		A65EC3FD1BC066B10026CE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HEYUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HEYU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A65EC3FE1BC066B10026CE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HEYUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HEYUco.HEYUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HEYU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65EC3C91BC066B10026CE58 /* Build configuration list for PBXProject "HEYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EC3F41BC066B10026CE58 /* Debug */,
+				A65EC3F51BC066B10026CE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65EC3F61BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EC3F71BC066B10026CE58 /* Debug */,
+				A65EC3F81BC066B10026CE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65EC3F91BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EC3FA1BC066B10026CE58 /* Debug */,
+				A65EC3FB1BC066B10026CE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65EC3FC1BC066B10026CE58 /* Build configuration list for PBXNativeTarget "HEYUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EC3FD1BC066B10026CE58 /* Debug */,
+				A65EC3FE1BC066B10026CE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65EC3C61BC066B10026CE58 /* Project object */;
+}
